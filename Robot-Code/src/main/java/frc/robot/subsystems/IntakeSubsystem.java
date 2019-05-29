@@ -10,15 +10,17 @@ package frc.robot.subsystems;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**
- * Add your docs here.
+ * This subsystem creates the motors for the intake, it then makes a function to
+ * make sure that none of the mortor are working against eachother. It will take
+ * also make sure that the motors are running at the same speed if needed
  */
 public class IntakeSubsystem extends Subsystem {
-  // Put methods for controlling this subsystem
-  // here. Call these from Commands.
+	// Put methods for controlling this subsystem
+	// here. Call these from Commands.
 
-  @Override
-  public void initDefaultCommand() {
-    // Set the default command for a subsystem here.
-    // setDefaultCommand(new MySpecialCommand());
-  }
+	@Override
+	public void initDefaultCommand() {
+		// Set the default command for a subsystem here.
+		// setDefaultCommand(new MySpecialCommand());
+	}
 }
